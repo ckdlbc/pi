@@ -1,6 +1,6 @@
 {
   "name": "@pi/config",
-  "version": "0.4.8",
+  "version": "0.5.0",
   "description": "@pi核心套件-文件操作模块，统一pi.config.js 文件读写操作接口",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

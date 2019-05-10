@@ -1,6 +1,6 @@
 {
   "name": "@pi/home",
-  "version": "0.4.8",
+  "version": "0.5.0",
   "description": "@pi核心套件-pi工作目录接口",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
