@@ -1,6 +1,6 @@
 {
   "name": "@pi/proxy",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "@pi核心套件-开放式的HTTP代理服务器",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

@@ -1,6 +1,6 @@
 {
   "name": "@pi/core",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "@pi核心套件-主套件，用于对外暴露",
   "main": "lib/index.js",
   "bin": {
@@ -18,7 +18,7 @@
   "author": "Arvinsu",
   "license": "UNLICENSED",
   "dependencies": {
-    "@pi/api": "^0.5.0",
+    "@pi/api": "^0.5.1",
     "@types/rimraf": "^2.0.2",
     "@types/sudo-block": "^1.2.0",
     "npminstall": "^3.20.2",

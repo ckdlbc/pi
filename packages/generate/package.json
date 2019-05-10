@@ -1,6 +1,6 @@
 {
   "name": "@pi/generate",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "@pi核心套件-创建/自定义模板",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

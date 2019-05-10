@@ -1,6 +1,6 @@
 {
   "name": "@pi/api",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "@pi核心套件-核心api集合",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -19,20 +19,20 @@
     "npm": ">= 3.0.0"
   },
   "dependencies": {
-    "@pi/argv": "^0.5.0",
-    "@pi/cache": "^0.5.0",
-    "@pi/commands": "^0.5.0",
-    "@pi/config": "^0.5.0",
-    "@pi/env": "^0.5.0",
-    "@pi/generate": "^0.5.0",
-    "@pi/home": "^0.5.0",
-    "@pi/intl": "^0.5.0",
-    "@pi/log": "^0.5.0",
-    "@pi/module": "^0.5.0",
-    "@pi/module-name": "^0.5.0",
-    "@pi/npm": "^0.5.0",
-    "@pi/proxy": "^0.5.0",
-    "@pi/task": "^0.5.0",
-    "@pi/upgrade": "^0.5.0"
+    "@pi/argv": "^0.5.1",
+    "@pi/cache": "^0.5.1",
+    "@pi/commands": "^0.5.1",
+    "@pi/config": "^0.5.1",
+    "@pi/env": "^0.5.1",
+    "@pi/generate": "^0.5.1",
+    "@pi/home": "^0.5.1",
+    "@pi/intl": "^0.5.1",
+    "@pi/log": "^0.5.1",
+    "@pi/module": "^0.5.1",
+    "@pi/module-name": "^0.5.1",
+    "@pi/npm": "^0.5.1",
+    "@pi/proxy": "^0.5.1",
+    "@pi/task": "^0.5.1",
+    "@pi/upgrade": "^0.5.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pi/module-name",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "@pi核心套件-套件/插件校验",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

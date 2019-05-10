@@ -2,7 +2,7 @@
   "lerna": "3.8.5",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "0.5.0",
+  "version": "0.5.1",
   "changelog": {
     "repo": "PI",
     "labels": {
