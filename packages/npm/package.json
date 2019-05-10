@@ -1,0 +1,33 @@
+{
+  "name": "@pi/npm",
+  "version": "0.4.8",
+  "description": "@pi核心套件-包管理工具",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w",
+    "test": "jest --config ../../jest.config.json --rootDir"
+  },
+  "author": "Arvinsu",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/cross-spawn": "^6.0.0",
+    "@types/dargs": "^5.1.0",
+    "@types/fs-extra": "^5.0.5",
+    "@types/lodash": "^4.14.123",
+    "cross-spawn": "^6.0.5",
+    "dargs": "^6.1.0",
+    "flyio": "^0.6.14",
+    "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11",
+    "npminstall": "^3.20.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

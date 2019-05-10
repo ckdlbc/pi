@@ -1,0 +1,38 @@
+{
+  "name": "@pi/api",
+  "version": "0.4.8",
+  "description": "@pi核心套件-核心api集合",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w",
+    "test": "jest --config ../../jest.config.json --rootDir"
+  },
+  "author": "Arvinsu",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {
+    "@pi/argv": "^0.4.8",
+    "@pi/cache": "^0.4.8",
+    "@pi/commands": "^0.4.8",
+    "@pi/config": "^0.4.8",
+    "@pi/env": "^0.4.8",
+    "@pi/generate": "^0.4.8",
+    "@pi/home": "^0.4.8",
+    "@pi/intl": "^0.4.8",
+    "@pi/log": "^0.4.8",
+    "@pi/module": "^0.4.8",
+    "@pi/module-name": "^0.4.8",
+    "@pi/npm": "^0.4.8",
+    "@pi/proxy": "^0.4.8",
+    "@pi/task": "^0.4.8",
+    "@pi/upgrade": "^0.4.8"
+  }
+}

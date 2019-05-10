@@ -1,0 +1,8 @@
+node_modules/
+lerna-debug.log
+
+dist/
+lib/
+
+tsconfig.tsbuildinfo
+yarn-error.log

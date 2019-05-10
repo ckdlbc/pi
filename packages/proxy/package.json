@@ -1,0 +1,34 @@
+{
+  "name": "@pi/proxy",
+  "version": "0.4.8",
+  "description": "@pi核心套件-开放式的HTTP代理服务器",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w",
+    "test": "jest --config ../../jest.config.json --rootDir"
+  },
+  "author": "Arvinsu",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^5.0.2",
+    "@types/koa-router": "^7.0.40",
+    "@types/koa2-cors": "^2.0.1",
+    "fs-extra": "^7.0.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-server-http-proxy": "^0.1.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

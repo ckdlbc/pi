@@ -1,0 +1,26 @@
+{
+  "lerna": "3.8.5",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "0.4.8",
+  "changelog": {
+    "repo": "PI",
+    "labels": {
+      "tag: feature": ":feat: New Feature",
+      "tag: breaking change": ":break: Breaking Change",
+      "tag: bugfix": ":fix: Bug Fix"
+    },
+    "cacheDir": ".changelog"
+  },
+  "bootstrap": {
+    "ignore": "example/**"
+  },
+  "command": {
+    "publish": {
+      "message": "chore(release): publish %v"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ]
+}

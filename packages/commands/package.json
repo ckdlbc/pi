@@ -1,0 +1,33 @@
+{
+  "name": "@pi/commands",
+  "version": "0.4.8",
+  "description": "@pi核心套件-可调用的命令集合",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w",
+    "test": "jest --config ../../jest.config.json --rootDir"
+  },
+  "author": "Arvinsu",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/fs-extra": "^5.0.5",
+    "@types/globby": "^9.1.0",
+    "@types/inquirer": "^6.0.0",
+    "@types/yargs": "^13.0.0",
+    "chalk": "^2.4.2",
+    "fs-extra": "^7.0.1",
+    "globby": "^9.2.0",
+    "inquirer": "6.3.1",
+    "yargs": "^13.2.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

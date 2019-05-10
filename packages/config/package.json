@@ -1,0 +1,25 @@
+{
+  "name": "@pi/config",
+  "version": "0.4.8",
+  "description": "@pi核心套件-文件操作模块，统一pi.config.js 文件读写操作接口",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w",
+    "test": "jest --config ../../jest.config.json --rootDir"
+  },
+  "author": "Arvinsu",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "fs-extra": "^7.0.1"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

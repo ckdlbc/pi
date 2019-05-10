@@ -1,0 +1,30 @@
+{
+  "name": "@pi/module",
+  "version": "0.4.8",
+  "description": "@pi核心套件-pi模块获取、安装、卸载",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w",
+    "test": "jest --config ../../jest.config.json --rootDir"
+  },
+  "author": "Arvinsu",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/node-emoji": "^1.8.1",
+    "@types/semver": "^6.0.0",
+    "fs-extra": "^7.0.1",
+    "node-emoji": "^1.10.0",
+    "ping": "^0.2.2",
+    "semver": "^6.0.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

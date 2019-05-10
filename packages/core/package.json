@@ -1,0 +1,33 @@
+{
+  "name": "@pi/core",
+  "version": "0.4.8",
+  "description": "@pi核心套件-主套件，用于对外暴露",
+  "main": "lib/index.js",
+  "bin": {
+    "an": "./lib/bin/pi.js"
+  },
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w",
+    "test": "jest --config ../../jest.config.json --rootDir"
+  },
+  "author": "Arvinsu",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@pi/api": "^0.4.8",
+    "@types/rimraf": "^2.0.2",
+    "@types/sudo-block": "^1.2.0",
+    "npminstall": "^3.20.2",
+    "rimraf": "^2.6.3",
+    "sudo-block": "^2.0.0",
+    "tslib": "^1.9.3"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
